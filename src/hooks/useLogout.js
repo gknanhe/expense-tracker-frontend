@@ -12,10 +12,13 @@ export const useLogout = () => {
   const logout = async () => {
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:8000/api/users/logout", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-      });
+      const res = await fetch(
+        "https://expense-tracker-backend-3kpo.onrender.com/api/users/logout",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+        }
+      );
 
       const data = await res.json();
 
