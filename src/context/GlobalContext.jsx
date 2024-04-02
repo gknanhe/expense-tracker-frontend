@@ -21,7 +21,7 @@ import axios from "axios";
 import { useTokenStore } from "../store/useTokens";
 import { toast } from "react-hot-toast";
 
-const BASE_URL = "http://localhost:8000/api/";
+const BASE_URL = "https://expense-tracker-backend-3kpo.onrender.com/api/";
 
 const GlobalContext = React.createContext();
 

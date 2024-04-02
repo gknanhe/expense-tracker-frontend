@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
 import { useGlobalContext } from "../../context/GlobalContext";
-import useIncome from "../../hooks/useIncome";
+// import useIncome from "../../hooks/useIncome";
 import { InnerLayout } from "../../styles/Layouts";
 import Chart from "../Chart/Chart";
 // import Chart from "../Chart/Chart";
